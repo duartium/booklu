@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SjD/ccVWkCfx9dPWSTiOaTAF0pdD2FydX64h9yt25kVur51okvdWItY32f1w4jxRSKEBDhuLBrJ8HzQzRbYIeg==",
+  "dgSpecHash": "d8T/lBrUCDOgI4N92aJivEeN/42LLXDf55LwDF78UxHbjS711XvOxPww9N8UWKsp6ur3Prpg7OsfH4ObOpX86w==",
   "success": true,
   "projectFilePath": "D:\\OpenSourceProjects\\booklu\\backend\\booklu.api\\booklu.api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
