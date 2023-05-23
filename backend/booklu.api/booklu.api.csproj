@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -16,9 +17,9 @@
   <ItemGroup>
     <Folder Include="Api\Middlewares\" />
     <Folder Include="Core\Application\Features\" />
-    <Folder Include="Core\Application\Interfaces\Repositories\" />
     <Folder Include="Core\Domain\Common\" />
     <Folder Include="Core\Domain\Entities\" />
+    <Folder Include="Core\Domain\DTOs\" />
     <Folder Include="Infraestructure\Persistence\Contexts\" />
     <Folder Include="Infraestructure\Shared\Services\" />
     <Folder Include="Test\" />
