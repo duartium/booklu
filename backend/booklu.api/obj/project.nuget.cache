@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d8T/lBrUCDOgI4N92aJivEeN/42LLXDf55LwDF78UxHbjS711XvOxPww9N8UWKsp6ur3Prpg7OsfH4ObOpX86w==",
+  "dgSpecHash": "vhD37TxN0pOOKggHdBBSdoUyZNj8ZKvnr0YknkR8C8HpUwaAuiOo8Q4nJJeN1lnYTlp9oo4M4+VQIwk/iZW1Ig==",
   "success": true,
   "projectFilePath": "D:\\OpenSourceProjects\\booklu\\backend\\booklu.api\\booklu.api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
