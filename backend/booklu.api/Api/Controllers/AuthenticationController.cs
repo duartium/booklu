@@ -5,7 +5,7 @@ namespace booklu.api.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthenticationController : ControllerBase
+    public class AuthenticationController : BaseApiController<AuthenticationController>
     {
 
     }
