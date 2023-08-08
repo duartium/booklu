@@ -2,11 +2,12 @@
 {
     public interface IBook
     {
-        string Name { get; }
-        string Description { get; }
-        string Author { get; }
-        string Title { get; }
-        string Language { get; }
-        decimal Price { get; }
+        string Name { get; set; }
+        string Description { get; set; }
+        string Author { get; set; }
+        string Title { get; set; }
+        string Language { get; set; }
+        decimal Price { get; set; }
+
     }
 }

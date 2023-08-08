@@ -4,16 +4,16 @@ namespace booklu.api.Infraestructure.Books
 {
     public class PhilosophyBook : IBook
     {
-        public string Name => throw new NotImplementedException();
+        public string Name { get; set; }
 
-        public string Description => throw new NotImplementedException();
+        public string Description { get; set; }
 
-        public string Author => throw new NotImplementedException();
+        public string Author { get; set; }
 
-        public string Title => throw new NotImplementedException();
+        public string Title { get; set; }
 
-        public string Language => throw new NotImplementedException();
+        public string Language { get; set; }
 
-        public decimal Price => throw new NotImplementedException();
+        public decimal Price { get; set; }
     }
 }

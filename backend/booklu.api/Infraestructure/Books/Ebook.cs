@@ -2,18 +2,15 @@
 
 namespace booklu.api.Infraestructure.Books
 {
-    public class BussinessBook : IBook
+    public class Ebook : IBook
     {
         public string Name { get; set; }
-
         public string Description { get; set; }
-
         public string Author { get; set; }
-
         public string Title { get; set; }
-
         public string Language { get; set; }
-
         public decimal Price { get; set; }
+
+        public int NumDownloads { get; set; } 
     }
 }
