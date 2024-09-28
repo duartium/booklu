@@ -1,24 +1,22 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace booklu.api.Api.Controllers
+namespace booklu.api.Api.Controllers;
+
+[Route("api/book")]
+[ApiController]
+public class BookController : BaseApiController<BookController>
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BookController : BaseApiController<BookController>
+    public BookController()
     {
-        public BookController()
-        {
-
-        }
-
-        [HttpPost("create")]
-        public IActionResult Create()
-        {
-            
-
-            return Ok();
-        }
 
     }
+
+    [HttpPost("create")]
+    public IActionResult Create()
+    {
+        
+
+        return Ok();
+    }
+
 }
