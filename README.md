@@ -10,6 +10,30 @@ Recommendation engines are a crucial part of the digital economy, driving person
 
 BRE uses a variety of algorithms and design patterns to provide personalized recommendations. We're implementing the Factory pattern, Singleton pattern among others, to ensure the code is easy to read, understand, and maintain.
 
+## Dataset
+
+The dataset used in this project is the [Amazon Books Reviews Dataset](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews) obtained from Kaggle.
+
+### Dataset Description
+This dataset contains information about reviews for books sold on Amazon, including:
+- Product ID (ASIN)
+- Book Title
+- Author
+- Number of Reviews
+- Average Ratings
+- Review Date
+
+The dataset contains over X million records, making it ideal for scalability and performance analysis in high-volume database systems.
+
+### License
+The dataset is available under the [insert license type if provided]. Please ensure that you follow the terms of the license when using this data.
+
+### Source
+- Dataset Name: **Amazon Books Reviews Dataset**
+- Provider: Kaggle
+- Link: [Amazon Books Reviews Dataset on Kaggle](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews)
+
+
 ## Why should you contribute?
 
 Contributing to BRE is a great opportunity to learn more about design patterns and best programming practices. In addition, you'll also get to:
