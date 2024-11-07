@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace booklu.api.Core.Application.Exceptions
+namespace booklu.api.Application.Exceptions
 {
     public class ApiException : Exception
     {
@@ -9,10 +9,10 @@ namespace booklu.api.Core.Application.Exceptions
 
         }
 
-        public ApiException(string message): base(message) { }
+        public ApiException(string message) : base(message) { }
 
         public ApiException(string messagge, params object[] args)
-            :base(String.Format(CultureInfo.CurrentCulture, messagge, args))
+            : base(string.Format(CultureInfo.CurrentCulture, messagge, args))
         {
 
         }

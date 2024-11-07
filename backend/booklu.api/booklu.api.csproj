@@ -19,10 +19,11 @@
 
   <ItemGroup>
     <Folder Include="Api\Middlewares\" />
-    <Folder Include="Core\Application\Features\" />
+    <Folder Include="Application\Features\" />
     <Folder Include="Core\Domain\Common\" />
     <Folder Include="Core\Domain\Entities\" />
     <Folder Include="Core\Domain\DTOs\" />
+    <Folder Include="Core\Domain\Models\BookCache\" />
     <Folder Include="Infraestructure\Persistence\Contexts\" />
     <Folder Include="Infraestructure\Shared\Services\" />
     <Folder Include="Test\" />

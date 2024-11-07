@@ -6,16 +6,10 @@ namespace booklu.api.Api.Controllers;
 [ApiController]
 public class BookController : BaseApiController<BookController>
 {
-    public BookController()
-    {
-
-    }
 
     [HttpPost("create")]
     public IActionResult Create()
     {
-        
-
         return Ok();
     }
 

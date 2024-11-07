@@ -1,4 +1,4 @@
-﻿using booklu.api.Core.Application.Interfaces.IRepositories;
+﻿using booklu.api.Application.Interfaces.IRepositories;
 using booklu.api.Core.Domain.Models;
 
 namespace booklu.api.Infraestructure.Repositories

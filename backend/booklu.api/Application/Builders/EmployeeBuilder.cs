@@ -1,7 +1,7 @@
-﻿using booklu.api.Core.Application.Interfaces;
+﻿using booklu.api.Application.Interfaces;
 using booklu.api.Core.Domain.Models;
 
-namespace booklu.api.Core.Application.Builders
+namespace booklu.api.Application.Builders
 {
     public class EmployeeBuilder : IBuilder<Employee>
     {
