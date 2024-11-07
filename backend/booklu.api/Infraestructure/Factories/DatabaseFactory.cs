@@ -1,5 +1,5 @@
-﻿using booklu.api.Core.Application.Enums;
-using booklu.api.Core.Application.Interfaces.IApplication;
+﻿using booklu.api.Application.Enums;
+using booklu.api.Application.Interfaces.IApplication;
 using booklu.api.Infraestructure.Persistence;
 using System.Data;
 

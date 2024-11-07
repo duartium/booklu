@@ -9,9 +9,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Booklu services and repositories
+builder.Services.AddDistributedMemoryCache(); 
+builder.Services.AddSession(options => { 
+    options.IdleTimeout = TimeSpan.FromDays(7); 
+    options.Cookie.HttpOnly = true; options.Cookie.IsEssential = true; }
+);
+builder.Services.AddHttpContextAccessor();
+
+//Booklu services, cache and repositories
 builder.Services.AddBookluServices();
 builder.Services.AddBookluRepositories();
+builder.Services.AddBookluCustomCache();
 
 var app = builder.Build();
 
@@ -25,7 +33,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseSession();
 app.MapControllers();
 
 app.Run();

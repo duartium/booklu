@@ -1,4 +1,4 @@
-﻿using booklu.api.Core.Application.Interfaces.IApplication;
+﻿using booklu.api.Application.Interfaces.IApplication;
 using Npgsql;
 using System.Data.SqlClient;
 

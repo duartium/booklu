@@ -1,6 +1,6 @@
 ﻿using booklu.api.Core.Domain.Models;
 
-namespace booklu.api.Core.Application.Interfaces.IServices
+namespace booklu.api.Application.Interfaces.IServices
 {
     public interface IUserService
     {

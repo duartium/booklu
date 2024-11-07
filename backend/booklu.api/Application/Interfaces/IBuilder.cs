@@ -1,4 +1,4 @@
-﻿namespace booklu.api.Core.Application.Interfaces
+﻿namespace booklu.api.Application.Interfaces
 {
     public interface IBuilder<T> where T : class
     {

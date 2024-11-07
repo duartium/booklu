@@ -1,4 +1,4 @@
-﻿namespace booklu.api.Core.Application.Interfaces.IApplication
+﻿namespace booklu.api.Application.Interfaces.IApplication
 {
     public interface IBook
     {

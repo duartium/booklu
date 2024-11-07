@@ -1,4 +1,4 @@
-﻿using booklu.api.Core.Application.Builders;
+﻿using booklu.api.Application.Builders;
 using booklu.api.Core.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,10 +8,6 @@ namespace booklu.api.Api.Controllers;
 [ApiController]
 public class EmployeeController : BaseApiController<EmployeeController>
 {
-    public EmployeeController()
-    {
-
-    }
 
     [HttpPost("create")]
     public IActionResult Create()

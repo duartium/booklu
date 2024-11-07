@@ -1,6 +1,6 @@
 ﻿using booklu.api.Core.Domain.Models;
 
-namespace booklu.api.Core.Application.Interfaces.IRepositories
+namespace booklu.api.Application.Interfaces.IRepositories
 {
     public interface IUserRepository
     {

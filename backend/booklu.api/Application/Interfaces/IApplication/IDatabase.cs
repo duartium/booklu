@@ -1,6 +1,6 @@
 ﻿using booklu.api.Infraestructure.Persistence;
 
-namespace booklu.api.Core.Application.Interfaces.IApplication
+namespace booklu.api.Application.Interfaces.IApplication
 {
     public interface IDatabaseAdapter
     {
