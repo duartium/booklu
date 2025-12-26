@@ -1,6 +1,4 @@
 ﻿using booklu.api.Application.Cache.RecentlyViewedBooksCache;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 
@@ -55,7 +53,7 @@ public class BookCacheController : BaseApiController<BookCacheController>
             cacheBooks = new CacheBooks<string>();
 
         cacheBooks.AddBook(bookTitle);
-        var x = JsonSerializer.Serialize(cacheBooks, new JsonSerializerOptions { WriteIndented = true })
+        var x = JsonSerializer.Serialize(cacheBooks, new JsonSerializerOptions { WriteIndented = true });
         session.SetString("BookCache", JsonSerializer.Serialize(cacheBooks, new JsonSerializerOptions { WriteIndented = true }));
 
         var jsonCacheBooks1 = session.GetString("BookCache");
