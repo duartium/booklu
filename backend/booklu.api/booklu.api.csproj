@@ -14,7 +14,7 @@
     <PackageReference Include="Npgsql" Version="10.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
     <PackageReference Include="Riok.Mapperly" Version="4.3.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="1.2.42" />
   </ItemGroup>
 
   <ItemGroup>
