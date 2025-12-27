@@ -1,6 +1,6 @@
 ﻿using booklu.api.Application.Interfaces.IApplication;
 using Npgsql;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace booklu.api.Infraestructure.Persistence
 {
